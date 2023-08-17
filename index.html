@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <title>Document</title>
+  </head>
+  <body class="font-inter">
+    <!-- Navbar -->
+    <nav class="absolute top-0 right-0 left-0 z-10 bg-slate-50 md:fixed" id="navbar-nav">
+      <div
+        class="fixed z-10 top-0 right-0 left-0 flex justify-between px-5 md:px-10 py-3 border border-b-sky-600 lg:px-24 xl:px-40 backdrop-blur-sm bg-white/30"
+      >
+        <div class="md:font-bold md:text-2xl">
+          <h1 class="font-bold text-2xl text-sky-600">Zacky Hafsa</h1>
+        </div>
+        <div class="md:hidden" id="menu">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAIZJREFUSEtjZBggwDhA9jKMWky3kB8NalhQN1A5zDHMwxXU/6lsMYY9g85iKnsY07jRVI0viB0oCP8D6HpJCWpKUjrRqRqb5wbM4gELagqieDQ7MVClBQLKKvYE4oGiVI3L7AGzOIGBgUGBgI+JrhapmoKxGUZKyUVVx4xaTNXgxGfYyAtqANVICh9bbkQGAAAAAElFTkSuQmCC"
+          />
+        </div>
+        <div
+          class="absolute top-full bg-sky-600 -z-10 text-lg font-semibold left-0 right-0 w-full justify-center text-center max-md:-top-52 md:bg-transparent md:flex md:static md:flex-row md:justify-end transition-all"
+          id="navbar"
+        >
+          <div
+            class="flex flex-col my-2 z-10 md:flex md:flex-row md:items-center text-white md:text-sky-600 md:hover:text-sky-700 group"
+          >
+            <a
+              href="#"
+              class="py-2 hover:bg-sky-700 rounded-lg md:p-0 md:mx-3 md:hover:text-sky-800 md:hover:bg-transparent"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="pb-2 hover:bg-sky-700 rounded-lg md:p-0 md:mx-3 md:hover:text-sky-700 md:hover:bg-transparent"
+              >About</a
+            >
+            <a
+              href="#products"
+              class="pb-2 hover:bg-sky-700 rounded-lg md:p-0 md:mx-3 md:hover:text-sky-700 md:hover:bg-transparent"
+              >Products</a
+            >
+            <a
+              href="#"
+              class="pb-2 hover:bg-sky-700 rounded-lg md:p-0 md:mx-3 md:hover:text-sky-700 md:hover:bg-transparent"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero section -->
+    <section
+      class="container h-screen w-screen mt-32 md:flex md:justify-center md:items-center md:mt-0 md:h-screen md:w-screen md:mx-auto"
+    >
+      <div
+        class="m-5 md:mx-10 md:flex md:justify-between md:bg-cover md:bg-no-repeat md:p-5 md:rounded-lg md:h-[400px] md:items-center"
+      >
+        <div class="text-slate-900 max-w-lg">
+          <h1 class="font-bold text-4xl text-sky-500">Haloooo</h1>
+          <p class="mt-3 font-semibold leading-3">
+            Nama saya, <span class="block font-bold text-3xl text-sky-500">Zacky Hafsari</span>
+          </p>
+          <p class="font-semibold text-lg mt-2">Programmer</p>
+          <p class="text-sm mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur recusandae rem
+            necessitatibus. Nemo quasi dicta corporis, tempore quod accusamus,
+          </p>
+          <a
+            href="#"
+            class="py-2 px-3 bg-sky-600 rounded-lg text-white inline-block mt-4 hover:bg-sky-700"
+            >Hubungi Saya</a
+          >
+        </div>
+
+        <div class="container max-w-lg mt-5 flex justify-center">
+          <img src="img/logo.svg" alt="" width="250px" />
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- About section -->
+    <section
+      class="w-screen bg-sky-100 md:flex md:justify-center md:items-center pt-12 right-0 left-0"
+      id="about"
+    >
+      <div class="container mx-auto py-3 lg:mx-32">
+        <h1 class="font-bold text-3xl text-sky-600 text-center mb-5">
+          About <span class="text-slate-900">Me</span>
+        </h1>
+        <div class="md:flex md:p-10">
+          <div class="w-60 mx-auto my-8 md:w-1/2 xl:flex xl:justify-center">
+            <img src="img/about.svg" alt="" class="w-96" />
+          </div>
+          <div class="mx-5 text-center font-inter md:text-justify md:gap-6 md:w-1/2">
+            <div class="mb-2">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium incidunt ea
+                veniam optio atque beatae, mollitia ipsum molestias, nulla nobis cupiditate
+                repellendus doloribus ullam quibusdam voluptates rem aspernatur illo ad!
+              </p>
+            </div>
+            <div class="">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto
+                suscipit consectetur? Rerum consectetur beatae quidem eligendi, saepe sint,
+                asperiores accusantium numquam dolores, error pariatur repudiandae itaque officiis
+                iusto minima illum dolor ab quam. Nemo molestias tempora voluptatibus expedita
+                cupiditate cum provident dolore, porro eos?
+              </p>
+            </div>
+            <div class="mt-5">
+              <h3 class="font-bold text-lg">My Social Media</h3>
+              <div class="flex justify-center mt-3 md:justify-start">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPdJREFUSEvt1j1KQ0EUxfHfQ+ws04gLEMHGHRhwA7Y2pjFZhH12oJggmM4dpAvqElIouIFgbARTiiBPLIagvA99bxTftPdy/3POXA6TiHSSSFx/FryCHaxhgUc84CXLye8o3scJ1pcgt9iuCtzBxRfDKwOvYoZW3eBdXC1B7zHG88c7n1Zh9SFGweA5NvCaBQvrZZari0Ew5AapC4VOGXAPZwHlGu1CVEoFSK3gO2zlVHWJg6zevFYXAfdxHAN8hPMY4D1MfgoczkkVDWNsdQOuLUAaqxurs7LjvZ43q39FgKS/ys3gJk+Y5pIZNJVRXJTxaf//A78BOAw2H9IcdF0AAAAASUVORK5CYII="
+                />
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAvVJREFUSEvl1ksIVVUUBuDPntADDJKy7EFYoaCp1aSwxJqVJBIURPmAGjizwkBKrAiFipwIDco0IXBQSZaTgkiDoqdIUkgNIiuCIElrlsUv68bhdM59NDFow+XC2Xuvf61//XutNcVJWlNOEq7/PPB0zMSpIxj6A1/jx1FMDov4QjyN23DeKEOt/V/wFtb2OdEHHLCdOLsM/obPkYiGrTOwAGfWoWO4C3val7qAz8I3SMQv4Xl8OgbowPZpWIjH6/8HXInfm+BdwLmwviK+e0KKc/xeToj2ZbyLReXEhlHAh3FxRfzThMABDWDWykrPfnyPGcOAQ28U+RVm9YDGqTtwA/7EB3i97t2H7XVvVaXqKM7BNPw8sNmmOsJIPt+v/LSxH8AzOLe18SvWYCtWFNVf4OPSyxWYg3w7sdrAEcXeegq3t4w/VKAB2YzPcDrmFmiiCnj2mutAgYahsNMJfCveLuqWNW7PL+9D1bWVs6bxS8uRMBHWDjY2k+NrisEwORT4VdzZuPwEHsODeK4n949gEx7FU40zYSaO34R9fcC34J2OiHcj1OeXitS1wlAcbjsdzYSFPKv3+oCzmbf3JpY0rO8qJUfNb0wIHIFdh8Vlu5PqAXCMB2SwUlBSWB7Gsz3A64ri/G9snPmkdHFzCXcocDviS+ptp+zN6xDXZVUsUi6vbjWGscR1Y73h5LH9nFZjC1L482QSSZpCFJtnlBp/P15oMRKFz8b1dacz4qgvKuwrIDEcqrsKSBT/Ykca0nBSQOJg3nQncOrpd/gWl/fkMiVzKcJO2uSHeK2n755SXSltMulKH+gEzoRxpGrrReNMEj3ODT5HzVF10jO12Vq72mLoSoF/BfeMMDxqO+U3ZTh9PTb/Xl3A5+NQjTuZHJ7ERzg+CqX2B4NA7iUdGYOuanamnOsbfZZjWwPo344+MZFWuaPt9LBhL7U1Sk0Fi0gmWWEntSAvIHT/Y40zV18wZCjoc+ZLDJ1exgGeJNKxz/7/gP8C/LagH31MPSUAAAAASUVORK5CYII="
+                />
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAslJREFUSEvl1svLVlUUBvDfZyDoIBI1TdFMSjBDxWtKf0AklOnAgXhF05GKoANBQRSCFEMEscRSbCBBGgiCYwddVLwnCF4qK/CCBImmlrE+9pHt7pzve99v4sAFL7znnPWsZ++113rW7vCMrOMZ8WqXuBemYCReoRP/B67he/zT6kZaJX4V6zAb/RuC38E3+BhXultAd8S9sR5rEf9bsUf4BBvxoAnQFXGk8jAmtsJW43McM/F7Hb6JeAS+w+AeklawIJ2On8s4dcT98APeSM6XUxFFQbViQfI3RiXni5iGP3NwHfFeLMic3sVRTMAWjEEEi1+cZzyPRixwNSLF7+BYFmM3PuqKeGpqi9zntdQurey28okjijar7DHewk/Vi3LHX2FuwTAeZ9phxZu4UGD2YEkd8Qu4hZcywI200pttEr+YjmJIhotCG1pHPCmdT86xAjvaJK3c40w/K7CRiaiNpyQzeu5Q4RiVfLWHxLHb3wrs+0kbniKO/Ef15RbgvEjaWUNf3C0ATzKYF9dSfF44jsPZdtgy32H4pcCuwdYy1bOSyOe+i/FlD4k/wLcFdiH2lcQhAk/6LAGOYEYPiQ/iwwI7GSdK4niOdirH3nzsb5M8MJ07y+yv1KqdM7sUkF1YhodJNKLFwr7AhpoqLdcTwyXGYRCXFlK8qHpZEueKsxKnUotFFv7FSWzDgSJq6PnmpOdNE28szjURx/tPsSo5xFQZhK+zi0CdhA5EqFyTbc9idvrUra5PGhSxwqq4IvA83MfOhughFrlEVm6n00y+l+Oa0jIcP6bdLk/9HROmKwuFizPOLfT5bfxaAru6+kSQ2HG0WVTkJYQovNzAHmIR3ys7j/fqSJtSnccN2YsqjQEfV9vbGNBAHNIaczg6Ii4Mm9LR1Lp3d8usQLGTSPnrmNNAHH17PdVAORz+B2mVuJvjbf/z80f8H67Sfh+X1Cq0AAAAAElFTkSuQmCC"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section end -->
+
+    <!-- Product section -->
+    <section class="p-5 w-screen h-screen" id="products">
+      <div class="py-5 text-center">
+        <h1 class="font-bold text-3xl text-sky-600">
+          My Pro<span class="text-slate-900">ducts</span>
+        </h1>
+      </div>
+      <div class="w-screen flex justify-center items-center">
+        <div class="carousel mx-auto max-w-lg">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="https://source.unsplash.com/900x600?shoes" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle" id="closeLink">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="https://source.unsplash.com/900x600?mechanical-keyboard" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="https://source.unsplash.com/900x600?mousepad" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="https://source.unsplash.com/900x600?nike-jordan" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product section end -->
+
+    <!-- contact me section -->
+    <section class="w-screen h-screen p-5" id="contact">
+      <div class="text-center mb-3">
+        <h1 class="font-bold text-3xl text-sky-600">
+          Contact <span class="text-slate-900 text-center">Me</span>
+        </h1>
+      </div>
+      <div class="max-w-lg m-auto md:flex md:justify-center md:items-center md:mt-5">
+        <div class="text-center mb-3">
+          <div class="flex gap-5">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAbtJREFUSEvt1rtrFFEUx/HPSqKlgZBCxMc/ICFNEBsb7XyABEJAC21ECBKw8VGoqGghKFrYCWIgCEHw0ZkinUIKi5BSlIBYiIU2YiIqR+7IdXAzm3XYbXaquXfO/X3P/O65j4YuPY0ucfXAHXO+bPVJnMXOmjN4hyu4X+jm4L2YrxlYlhvFQnTm4PO4liIv15zAxaR3DjfK4EsoAo5huib4UTzMfig4f/1xDo5v9zCFlTYT2IjbOJWNDycrwRH/Ggfxfp3wrXiGkdK4SnDYHBbF8wkTeNEifD9mMJjic61/gmN+f9uQpuA0bqIfP9L8R/H9bJJAFOoFhPgGrOIM7mZjWgKH/m48xVCCzWEMn0vwzZjFvtT/AUfwKrWLZCutzpfZFjxOSYTOMg5gMYnuwnNsT+2AHcLHLLm2wDG+D7cwmcS+4UR6j91oU3q/k+z9XnKkbXChM44HGajo/4rjeNRk/v8bHLrDeIIdCfIGh7G0RtXXAg79AYStUe1R/V8qllpt4BaX9J+wHrjjx2IcvdeLrbGYiE5cBPbgZRkc7TjC4rDett7qqYh/i6vNrj41s9aW692rO2Z316z+BRs3ZB8+F4SyAAAAAElFTkSuQmCC"
+            />
+            <p>zackyhafsa089@gmail.com</p>
+          </div>
+          <div class="flex gap-5">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAvVJREFUSEvl1ksIVVUUBuDPntADDJKy7EFYoaCp1aSwxJqVJBIURPmAGjizwkBKrAiFipwIDco0IXBQSZaTgkiDoqdIUkgNIiuCIElrlsUv68bhdM59NDFow+XC2Xuvf61//XutNcVJWlNOEq7/PPB0zMSpIxj6A1/jx1FMDov4QjyN23DeKEOt/V/wFtb2OdEHHLCdOLsM/obPkYiGrTOwAGfWoWO4C3val7qAz8I3SMQv4Xl8OgbowPZpWIjH6/8HXInfm+BdwLmwviK+e0KKc/xeToj2ZbyLReXEhlHAh3FxRfzThMABDWDWykrPfnyPGcOAQ28U+RVm9YDGqTtwA/7EB3i97t2H7XVvVaXqKM7BNPw8sNmmOsJIPt+v/LSxH8AzOLe18SvWYCtWFNVf4OPSyxWYg3w7sdrAEcXeegq3t4w/VKAB2YzPcDrmFmiiCnj2mutAgYahsNMJfCveLuqWNW7PL+9D1bWVs6bxS8uRMBHWDjY2k+NrisEwORT4VdzZuPwEHsODeK4n949gEx7FU40zYSaO34R9fcC34J2OiHcj1OeXitS1wlAcbjsdzYSFPKv3+oCzmbf3JpY0rO8qJUfNb0wIHIFdh8Vlu5PqAXCMB2SwUlBSWB7Gsz3A64ri/G9snPmkdHFzCXcocDviS+ptp+zN6xDXZVUsUi6vbjWGscR1Y73h5LH9nFZjC1L482QSSZpCFJtnlBp/P15oMRKFz8b1dacz4qgvKuwrIDEcqrsKSBT/Ykca0nBSQOJg3nQncOrpd/gWl/fkMiVzKcJO2uSHeK2n755SXSltMulKH+gEzoRxpGrrReNMEj3ODT5HzVF10jO12Vq72mLoSoF/BfeMMDxqO+U3ZTh9PTb/Xl3A5+NQjTuZHJ7ERzg+CqX2B4NA7iUdGYOuanamnOsbfZZjWwPo344+MZFWuaPt9LBhL7U1Sk0Fi0gmWWEntSAvIHT/Y40zV18wZCjoc+ZLDJ1exgGeJNKxz/7/gP8C/LagH31MPSUAAAAASUVORK5CYII="
+            />
+            <p>@zackyy.8</p>
+          </div>
+          <div class="flex gap-5">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPdJREFUSEvt1j1KQ0EUxfHfQ+ws04gLEMHGHRhwA7Y2pjFZhH12oJggmM4dpAvqElIouIFgbARTiiBPLIagvA99bxTftPdy/3POXA6TiHSSSFx/FryCHaxhgUc84CXLye8o3scJ1pcgt9iuCtzBxRfDKwOvYoZW3eBdXC1B7zHG88c7n1Zh9SFGweA5NvCaBQvrZZari0Ew5AapC4VOGXAPZwHlGu1CVEoFSK3gO2zlVHWJg6zevFYXAfdxHAN8hPMY4D1MfgoczkkVDWNsdQOuLUAaqxurs7LjvZ43q39FgKS/ys3gJk+Y5pIZNJVRXJTxaf//A78BOAw2H9IcdF0AAAAASUVORK5CYII="
+            />
+            <p>Zacky</p>
+          </div>
+        </div>
+        <div><img src="img/contact.svg" alt="" class="w-72" /></div>
+      </div>
+    </section>
+    <!-- contact me section end -->
+
+    <!-- footer -->
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+      <div class="grid grid-flow-col gap-4">
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </div>
+      <div>
+        <div class="grid grid-flow-col gap-4">
+          <a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+              ></path></svg
+          ></a>
+          <a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+              ></path></svg
+          ></a>
+          <a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+              ></path></svg
+          ></a>
+        </div>
+      </div>
+      <div>
+        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script>
+      const navbar = document.getElementById("navbar");
+      const menu = document.getElementById("menu");
+      const navbarNav = document.getElementById("navbar-nav");
+      const closeLink = document.getElementById("closeLink");
+
+      menu.addEventListener("click", () => {
+        navbar.classList.toggle("max-md:top-full");
+      });
+      navbar.addEventListener("click", () => {
+        navbar.classList.remove("max-md:top-full");
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!menu.contains(e.target) && !navbarNav.contains(e.target)) {
+          navbar.classList.remove("max-md:top-full");
+        }
+      });
+    </script>
+  </body>
+</html>
